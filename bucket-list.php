@@ -12,13 +12,13 @@
 </head> 
 
 <body>
-   <div class = "logo"><a href="home.html"><img id = "logo" src="logo.png" alt="picture of logo" width="360" height="360"></a></div>
+   <div class = "logo"><a href="home.html"><img id = "logo" src="media/logo.png" alt="picture of logo" width="360" height="360"></a></div>
    <br><br><br>
    <div class="topnav">
       <ul>
          <li><a class = "headers" href="home.html">Home</a></li>
          <li><a class = "headers" href="login.php">Login</a></li>
-         <li><a class = "headers" href="recommendations.html">Recommendations</a></li>
+         <li><a class = "headers" href="recommendations.php">Recommendations</a></li>
          <li><a class = "active headers" href="bucket_login.php">Bucket List</a></li>
          <li><a class = "headers" href="contact.html">Contact</a></li>
       </ul>
@@ -42,7 +42,7 @@
          <h2 style="text-align:center">Insert Event:</h2>
          <form style="margin-left:15%" method = "POST" action = "$script">
             <label> Name: <input name = "name" type = "text" required/> </label><br>
-            <label> Date: <input name = "date" type = "date" required/> <b style="font-size:10px"> *12/31/1999 for anytime</b></label><br>
+            <label> Date: <input name = "date" type = "date" required/> <b style="font-size:10px"> *12/31/9999 for anytime</b></label><br>
             <label> Type: </label><br>
             <label><input name = "activitytype" type = "radio" value = "outdoor" required/> Outdoor </label><br>
 				<label><input name = "activitytype" type = "radio" value = "bar" /> Bar </label><br>

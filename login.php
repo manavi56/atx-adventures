@@ -12,13 +12,13 @@
 </head> 
 
 <body>
-   <div class = "logo"><a href="home.html"><img id = "logo" src="logo.png" alt="picture of logo" width="360" height="360"></a></div>
+   <div class = "logo"><a href="home.html"><img id = "logo" src="media/logo.png" alt="picture of logo" width="360" height="360"></a></div>
    <br><br><br>
    <div class="topnav">
       <ul>
          <li><a class = "headers" href="home.html">Home</a></li>
          <li><a class = "active headers" href="login.php">Login</a></li>
-         <li><a class = "headers" href="recommendations.html">Recommendations</a></li>
+         <li><a class = "headers" href="recommendations.php">Recommendations</a></li>
          <li><a class = "headers" href="bucket_login.php">Bucket List</a></li>
          <li><a class = "headers" href="contact.html">Contact</a></li>
       </ul>
@@ -26,7 +26,7 @@
 
 	<div id="main">
 	<p>
-	<img id="picture" src="barton_springs.jpg" alt="Picture of Barton Springs" width=35% height=35%>
+	<img id="picture" src="media/barton_springs.jpg" alt="Picture of Barton Springs" width=35% height=35%>
 	</p>
 
 <div id="form">
