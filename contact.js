@@ -136,18 +136,7 @@ function validation(){
 		}
 	}
 	
-	/*loop through with email validation, uses regex so make sure to bring up to team that we have not learned it yet, but that we will learn it in two weeks so maybe just add a note here that email validation is not something we know how to do
-	var email_format = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-	
-	if (val_email1.value.match(email_format)){
-		return true;
-	}else{
-		put HTML about error
-		document.form1.email1.focus();
-		return false;
-	}*/
 
-	/*go through subject line validation*/
 	var j = 0;
 	while (val_subject.length > j){
 		if (val_subject.charCodeAt(j) > 31 && val_subject.charCodeAt(j) < 127){

@@ -1,14 +1,9 @@
-h1{
-	font-family: myFirstFont;
-    text-align:center;
-}
-
 @font-face {
     font-family: myFirstFont;
     src: url('GlacialIndifference-Regular.otf');
 }
 
-p, label {
+label {
 	font-family: myFirstFont;
 }
 
@@ -26,7 +21,7 @@ p, label {
 }
 
 #form{
-	margin-right:100px;
+	margin-right:130px;
 	font-size:14pt;
 }
 
@@ -45,62 +40,24 @@ p, label {
 	width:500px;
 	padding:4px;
 	font-size:14pt;	
-	border: #808080 solid;
-	border-radius:2px;
-}
-
-#name_error{
-	font-size:14pt;
-    font-family: myFirstFont;
-    src: url('GlacialIndifference-Regular.otf');
 }
 
 #email1{
 	width:500px;
 	padding:4px;
 	font-size:14pt;	
-	border: #808080 solid;
-	border-radius:2px;
-}
-
-#ajax_div{
-	font-size:14pt;
-    font-family: myFirstFont;
-    src: url('GlacialIndifference-Regular.otf');
-}
-
-#email_error{
-	font-size:14pt;
-    font-family: myFirstFont;
-    src: url('GlacialIndifference-Regular.otf');
 }
 
 #subject{
 	width:500px;
 	padding:4px;
 	font-size:14pt;	
-	border: #808080 solid;
-	border-radius:2px;
-}
-
-#subject_error{
-	font-size:14pt;
-    font-family: myFirstFont;
-    src: url('GlacialIndifference-Regular.otf');
 }
 
 #message{
 	width:500px;
 	padding:4px;
 	font-size:14pt;	
-	border: #808080 solid;
-	border-radius:2px;
-}
-
-#message_error{
-	font-size:14pt;
-    font-family: myFirstFont;
-    src: url('GlacialIndifference-Regular.otf');
 }
 
 button{
@@ -135,3 +92,7 @@ button:hover{
 	background-color:#adcc95;
 }
 
+input {
+    display: block;
+	margin-bottom: 20px;
+}
