@@ -22,7 +22,7 @@
       <ul>
          <li><a class = "headers" href="home.html">Home</a></li>
          <li><a class = "headers" href="login.php">Login</a></li>
-         <li><a class = "headers" href="recommendations.html">Recommendations</a></li>
+         <li><a class = "headers" href="recommendations.php">Recommendations</a></li>
          <li><a class = "headers" href="bucket_login.php">Bucket List</a></li>
          <li><a class = "active headers" href="contact.html">Contact</a></li>
       </ul>
