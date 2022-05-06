@@ -1,5 +1,5 @@
 var img_idx = 0
-var img_src = new Array("boat_austin.jpg", "downtown_austin.jpeg", "atx_mural.jpeg")
+var img_src = new Array("media/boat_austin.jpg", "media/downtown_austin.jpeg", "media/atx_mural.jpeg")
 
 function changeImg() {
     // console.log(img_idx, img_src.length)
